@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <head>
+    <script type="text/javascript">
+       
+       function clickMe() {
+        document.getElementById("example").innerHTML = "This Document changed";
+    
+       }
+        </script>   
     <meta charset="UTF-8" /> 
     <meta name="viewport"  content="width="device-width, initial-scale="1.0" />
     <link rel="stylesheet" href="css/index.css"
 </head>
     <body>
+        
         <div class="container">
             <div class="box">
                 <div class="padding">
@@ -24,4 +32,13 @@
         </div>
     </div>
     </div>
+    <div>
+        <p id="example" >
+            Let me see if i will change!
+        </p>
+        <button type="button" onclick="clickMe()">Click Me</button>
+        
+    </div>
+ 
     </body>
+    </html>

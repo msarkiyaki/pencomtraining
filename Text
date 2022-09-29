@@ -1,0 +1,7 @@
+Javascript
+1. Values = Number, String, Boolean, Objects, Functions, Undefined (null)
+2. Operators = +, =, -, *, /, <, >, ||, ?
+3. Expressions = Functions, asyc await, object initializer, regular expression, class expression
+4. Keywords = case, do var, void, break, throw, exports, import, if, try, catch, for, with, while, else, private, public
+5. Comments = //, /** */
+6. Data type in JS:   objects, int, String
